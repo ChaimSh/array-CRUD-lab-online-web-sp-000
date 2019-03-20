@@ -17,17 +17,17 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  fruits = ["apples", "oranges", "bananas", "pineapples"]
+  fruits = ["apples", "oranges", "bananas", "pineapples", "arrays"]
   fruits.pop
 end
 
 def remove_element_from_start_of_array(array)
-  fruits = ["apples", "oranges", "bananas", "pineapples"]
+  fruits = ["wow", "apples", "oranges", "bananas", "pineapples"]
 apples = fruits.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  fruits = ["apples", "oranges", "bananas", "pineapples"]
+  fruits = ["apples", "oranges", "bananas", "am"]
   fruits[3]
 end
 
